@@ -5,8 +5,11 @@
 }
 body{
     background-image: url("./drew-coffman-jUOaONoXJQk-unsplash.jpg");
-    background-size: cover;
     background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
     /* opacity:0.9; */
 }
 #nav{
@@ -78,7 +81,7 @@ body{
     width: 600px;
     top: 60px;
     left: 200px;
-    font-size: 48px;
+    font-size: 2.9rem;
     color: #000;
 }
 #two{
@@ -86,7 +89,7 @@ body{
     width: 400px;
     top: 155px;
     left: 400px;
-    font-size: 48px;
+    font-size: 2.9rem;
     color: #000;
 }
 #confim-order,#menu{
@@ -96,10 +99,10 @@ body{
     background-color: transparent;
     opacity: 0.9;
     color: black;
-    height: 50px;
-    width: 180px;
     animation: menu 2s linear infinite ;
     font-size: 20px;
+    height: 6vh;
+    width: 12vw;
 }
 #confim-order{
     display: none;
@@ -107,8 +110,9 @@ body{
     left: 1160px;
 }
 #menu{
-    top: 303px;
-    left: 689px;  
+    
+    top: 35vh;
+    left: 50vw;  
 }
 @keyframes menu {
     0%{
